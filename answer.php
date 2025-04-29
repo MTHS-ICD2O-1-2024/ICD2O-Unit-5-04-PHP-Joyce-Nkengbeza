@@ -50,10 +50,9 @@
           <?php
           //input
           $age = (int) $_GET["age"];
-          $tuesday = $_GET["tuesday"];
-          $thursday = $_GET["thursday"];
+          $day = $_GET["day"];
           // process
-          if ($tuesday || $thursday || ($age > 12 && $age < 21)) {
+          if ($day == 3 || $day == 5 || ($age > 12 && $age < 21)) {
             // output
             echo "You are eligible for a student discount";
           }
