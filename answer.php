@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit5-01PHP-HTML-MDL -->
+<!-- ICS2O-Unit5-04PHP-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Random Number Guess, PHP" />
+  <meta name="description" content="Museum Prices for a day depending on age, PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16new.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Random Number Guess, PHP</title>
+  <title>Museum Prices for a day depending on age, PHP</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Random Number Guess, in PHP</span>
+        <span class="mdl-layout-title">Museum Prices for a day depending on age, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -69,6 +69,6 @@
         </div>
     </main>
   </div>
-  </body>
+</body>
 
 </html>
