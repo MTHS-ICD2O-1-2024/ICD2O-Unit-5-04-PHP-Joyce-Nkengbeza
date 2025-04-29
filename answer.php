@@ -48,19 +48,18 @@
       <div class="page-content-php">
         <div id="user-info">
           <?php
-          $randomNumber = random_int(1, 6);
           //input
-          $userNumber = (int) $_GET["userNumber"];
+          $age = (int) $_GET["age"];
+          $tuesday = $_GET["tuesday"];
+          $thursday = $_GET["thursday"];
           // process
-          if ($userNumber === $randomNumber) {
+          if ($tuesday || $thursday ||($age >12 && $age <21)) {
             // output
-            echo "The number " . $userNumber . " was the correct number";
+            echo "You are eligible for a student discount";
           }
           // process
-          if ($userNumber === $randomNumber) {
-            echo "You have guessed the correct number!";
-          } else {
-            echo "You have guessed the wrong number!<br/>The Correct Number Was: " . $randomNumber;
+            else {
+            echo "You have to pay regular price.";
           }
           ?>
           <div class="page-content-answer">
