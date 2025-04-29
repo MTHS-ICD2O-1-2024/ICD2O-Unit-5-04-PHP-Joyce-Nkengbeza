@@ -43,7 +43,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/dice.gif" />
+        <img src="./images/museum-clipart-lg.png" alt="museum image" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
@@ -53,12 +53,12 @@
           $tuesday = $_GET["tuesday"];
           $thursday = $_GET["thursday"];
           // process
-          if ($tuesday || $thursday ||($age >12 && $age <21)) {
+          if ($tuesday || $thursday || ($age > 12 && $age < 21)) {
             // output
             echo "You are eligible for a student discount";
           }
           // process
-            else {
+          else {
             echo "You have to pay regular price.";
           }
           ?>

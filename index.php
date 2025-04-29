@@ -45,7 +45,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/dice.gif" alt="dice gif" />
+        <img src="./images/museum-clipart-lg.png" alt="museum image" />
       </div>
       <div class="page-content">Enter your age and the day of the week</div>
       <br />
@@ -95,7 +95,7 @@
             <span class="mdl-radio__label">saturday</span>
           </label>
           </br>
-          
+
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">
