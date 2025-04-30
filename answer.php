@@ -49,8 +49,8 @@
         <div id="user-info">
           <?php
           //input
-          $age = isset($_GET["age"]) ? (int) $_GET["day"] : 0;
-          $day = isset($_GET["day"]) ? (int) $_GET["day"] : 0;
+          $age = isset($_GET["age"]);
+          $day = isset($_GET["day"]);
           // process
           if (($day == 3 || $day == 5 ) || ($age >12 && $age<21)) {
             // output
