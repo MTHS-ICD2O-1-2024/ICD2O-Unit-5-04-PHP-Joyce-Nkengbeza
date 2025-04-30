@@ -54,7 +54,7 @@
         <form action="./answer.php" method="GET">
           <!-- Numeric Textfield -->
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="age" />
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="age" />
             <label class="mdl-textfield__label" for="age">enter age...</label>
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error">Input is not a number!</span>
