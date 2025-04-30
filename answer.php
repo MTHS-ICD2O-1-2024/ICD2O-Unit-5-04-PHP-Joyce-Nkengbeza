@@ -52,7 +52,7 @@
           $age = (int) $_GET["age"];
           $day = $_GET["day"];
           // process
-          if (($day == 3 || $day == 5 ) || ($age > 12 && $age < 21)) {
+          if (($day == 3 || $day == 5 ) || ($age>12 && $age<21)) {
             // output
             echo "You are eligible for a student discount";
           }
