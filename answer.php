@@ -52,7 +52,7 @@
           $age = isset($_GET["age"]) ? (int) $_GET["age"] : 0;
           $day = isset($_GET["day"]) ? (int) $_GET["day"] : 0;
           // process
-          if (($day == 3 || $day == 5 ) || ($age >=12 && $age<=21)) {
+          if (($day == "tuesday" || $day == "thursday" ) || ($age >=12 && $age<=21)) {
             // output
             echo "<p> if you are " . $age . "and the day is" . $day . "</p>";
             echo "You are eligible for a student discount";

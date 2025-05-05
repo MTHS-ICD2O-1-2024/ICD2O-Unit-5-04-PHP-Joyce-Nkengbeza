@@ -61,37 +61,37 @@
           </div>
           <br />
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sunday">
-            <input type="radio" id="sunday" class=" mdl-radio__button" name="day" value="1" checked />
+            <input type="radio" id="sunday" class=" mdl-radio__button" name="day" value="sunday" checked />
             <span class="mdl-radio__label">sunday</span>
           </label>
           </br>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="monday">
-            <input type="radio" id="monday" class=" mdl-radio__button" name="day" value="2" />
+            <input type="radio" id="monday" class=" mdl-radio__button" name="day" value="monday" />
             <span class="mdl-radio__label">monday</span>
           </label>
           </br>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="tuesday">
-            <input type="radio" id="tuesday" class=" mdl-radio__button" name="day" value="3" />
+            <input type="radio" id="tuesday" class=" mdl-radio__button" name="day" value="tuesday" />
             <span class="mdl-radio__label">tuesday</span>
           </label>
           </br>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="wednesday">
-            <input type="radio" id="wednesday" class=" mdl-radio__button" name="day" value="4" />
+            <input type="radio" id="wednesday" class=" mdl-radio__button" name="day" value="wednesday" />
             <span class="mdl-radio__label">wednesday</span>
           </label>
           </br>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="thursday">
-            <input type="radio" id="thursday" class=" mdl-radio__button" name="day" value="5" />
+            <input type="radio" id="thursday" class=" mdl-radio__button" name="day" value="thursday" />
             <span class="mdl-radio__label">thursday</span>
           </label>
           </br>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="friday">
-            <input type="radio" id="friday" class=" mdl-radio__button" name="day" value="6" />
+            <input type="radio" id="friday" class=" mdl-radio__button" name="day" value="friday" />
             <span class="mdl-radio__label">friday</span>
           </label>
           </br>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="saturday">
-            <input type="radio" id="saturday" class=" mdl-radio__button" name="day" value="7" />
+            <input type="radio" id="saturday" class=" mdl-radio__button" name="day" value="saturday" />
             <span class="mdl-radio__label">saturday</span>
           </label>
           </br>
