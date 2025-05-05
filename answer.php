@@ -50,7 +50,7 @@
           <?php
           //input
           $age = isset($_GET["age"]) ? (int) $_GET["age"] : 0;
-          $day = $_GET["day"];
+          $day = $_GET["day"] ? (int) $_GET["day"] : 0;
           // process
           if (($day == "tuesday" || $day == "thursday" ) || ($age >=12 && $age<=21)) {
             // output
