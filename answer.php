@@ -60,7 +60,7 @@
           // process
           else {
             //output
-            echo "<p> if you are " . $age . "and the day is" . $day . "</p>";
+            echo "<p> if you are " + " " . $age . "and the day is" + " " . $day . "</p>";
             echo "You have to pay regular price.";
           }
           ?>
