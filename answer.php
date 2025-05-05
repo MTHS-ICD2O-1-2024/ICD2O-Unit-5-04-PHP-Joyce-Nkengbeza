@@ -54,11 +54,13 @@
           // process
           if (($day == 3 || $day == 5 ) || ($age >=12 && $age<=21)) {
             // output
+            echo "<p> if you are " . $age . "and the day is" . $day . "</p>";
             echo "You are eligible for a student discount";
           }
           // process
           else {
             //output
+            echo "<p> if you are " . $age . "and the day is" . $day . "</p>";
             echo "You have to pay regular price.";
           }
           ?>
