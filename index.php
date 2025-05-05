@@ -81,7 +81,7 @@
           </label>
           </br>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="thursday">
-            <input type="radio" id="day" class=" mdl-radio__button" name="day" value="thursday"  />
+            <input type="radio" id="day" class=" mdl-radio__button" name="day" value="thursday" />
             <span class="mdl-radio__label">thursday</span>
           </label>
           </br>
