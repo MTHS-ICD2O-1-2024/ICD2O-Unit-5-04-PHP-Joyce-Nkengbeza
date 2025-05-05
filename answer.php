@@ -49,19 +49,15 @@
         <div id="user-info">
           <?php
           //input
-          $age = isset($_GET["age"]) ? (int) $_GET["age"] : 0;
-          $day = isset($_GET["day"]) ? (int) $_GET["day"] : 0;
+          $age = $_GET["age"];
+          $day = $_GET["day"];
           // process
-          if (($day == "tuesday" || $day == "thursday" ) || ($age >=12 && $age<=21)) {
-            // output
-            echo "<p> if you are " . $age . "and the day is" . $day . "</p>";
-            echo "You are eligible for a student discount";
-          }
-          // process
-          else {
-            //output
-            echo "<p> if you are " + " " . $age . "and the day is" + " " . $day . "</p>";
-            echo "You have to pay regular price.";
+          if (($day == 'tuesday' || $day == 'thursday' || ($age >= 12 && $age <= 21))) {
+            echo "<p> If you are " . $age . "and the day is " . $day . "</p>";
+            echo "<p>You are eligible for a student discount.</p>";
+          } else {
+            echo "<p> If you are " . $age . "and the day is " . $day . "</p>";
+            echo "<p>You must pay full price.</p>";
           }
           ?>
           <div class="page-content-answer">
